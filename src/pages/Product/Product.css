@@ -1,0 +1,49 @@
+.product-list table {
+    border: 1px solid #D2D2D2;
+}
+
+.product-list table td,
+.product-list table th,
+.product-list table tr {
+    border-bottom: 1px solid #D2D2D2;
+    padding: 0.5rem;
+}
+
+.product-list table th {
+    font-weight: 500;
+}
+
+.product-list table .edit-product {
+    height: 8rem;
+}
+
+.product-list table td img{
+    max-height: 8rem;
+}
+
+.product-list .action .icon {
+    cursor: pointer;
+}
+
+.product-items .delete-btn {
+    border: 1px dashed red;
+    text-align: center;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.product-items .edit-btn {
+    border: 1px dashed lightblue;
+    text-align: center;
+    border-radius: 5px;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.product-list .add-btn {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,1 @@
+export const PRODUCT_CATEGORY = [{ name: "Iphone", value: "iphone" }, { name: "Mac", value: "mac" }, { name: "Airpods", value: "airpods" }, { name: "Watch", value: "watch" }, { name: "Ipad", value: "ipad" }, { name: "Mouse", value: "mouse" }, { name: "Keyboard", value: "keyboard" }, { name: "Other", value: "other" }]

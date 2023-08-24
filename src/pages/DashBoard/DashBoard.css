@@ -1,0 +1,15 @@
+.dashboard-header{
+    padding: 1rem;
+}
+
+.dashboard-header .card{
+    width: 300%;
+}
+
+.dashboard-header .card-title{
+    color: grey;
+}
+
+.dashboard-header .card-body p{
+    font-size: 1.5rem;
+}

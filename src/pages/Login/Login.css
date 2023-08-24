@@ -1,0 +1,41 @@
+.login-container {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.login-container .control-group input {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.login-container .form-control {
+  border: none;
+  padding: 0;
+}
+
+.login-container .control-group input:focus {
+  outline: none;
+}
+
+.login-container .form-control.invalid {
+  color: red !important;
+  font-size: 0.8rem;
+  text-align: start;
+}
+
+.login-container .form-control {
+  margin-bottom: 1rem;
+}
+
+.login-container .form-actions button {
+  color: white;
+  background-color: #0071c2;
+  font-weight: 600;
+  padding: 1rem 0.8rem;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}

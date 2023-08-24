@@ -1,0 +1,51 @@
+.order-list table {
+    border: 1px solid #D2D2D2;
+}
+
+.order-list table td,
+.order-list table th,
+.order-list table tr {
+    border-bottom: 1px solid #D2D2D2;
+    padding: 0.5rem;
+}
+
+.order-list table th {
+    font-weight: 500;
+}
+
+.order-list .action .icon {
+    cursor: pointer;
+}
+
+.order-items .delete-btn {
+    border: 1px dashed red;
+    text-align: center;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.order-items .edit-btn {
+    border: 1px dashed lightblue;
+    text-align: center;
+    border-radius: 5px;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.order-list .add-btn {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}
+
+.form-edit-status-select {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-top-right-radius: var(--bs-border-radius);
+    border-bottom-right-radius: var(--bs-border-radius);
+}
+
+.form-edit-status-select:focus{
+    outline: none;
+}

@@ -1,0 +1,17 @@
+.layout {
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.horizon-line {
+    border-left: 1px solid #C7C8C9;
+}
+
+.layout-header h4 {
+    color: #724BFF
+}
+
+
+.layout-container {
+    height: 95%;
+}

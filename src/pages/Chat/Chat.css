@@ -1,0 +1,84 @@
+.chat-container .custom-border {
+    border-right: 1px solid #C7C8C9;
+}
+
+.chat-contact {
+    height: 60vh;
+    overflow: auto;
+}
+
+.chat-container .row {
+    height: 100%;
+}
+
+.chat-container .chat-send-to {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.chat-container .chat-send-to p {
+    margin-bottom: 0 !important;
+}
+
+.chat-container .chat-send-to.active {
+    border: 5px solid green;
+    border-radius: 5px;
+}
+
+.chat-container .chat-send-to.deactive {
+    border: 5px solid #C7C8C9;
+    border-radius: 5px;
+}
+
+
+.chat-action .emoji-container {
+    position: absolute !important;
+    bottom: 2rem;
+    left: -15rem;
+}
+
+.chat-actions {
+    position: relative;
+}
+
+.chat-actions .send-action {
+    color: #169af8;
+}
+
+.chat-actions .chat-icon {
+    cursor: pointer;
+}
+
+.chat-input input {
+    width: 80%;
+    background-color: #f9fafb;
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+.chat-action input {
+    border: none;
+    width: 100%;
+}
+
+.chat-action input:focus {
+    outline: none;
+}
+
+.chat-content .user-chat p {
+    background-color: #48b0f7;
+    width: fit-content;
+    color: white;
+    padding: 0.5rem;
+}
+
+.user-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chat-content {
+    height: 60vh;
+    overflow: auto;
+}

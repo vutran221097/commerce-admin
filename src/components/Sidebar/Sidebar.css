@@ -1,0 +1,13 @@
+.side-bar h6 {
+    font-size: 12px;
+    color: grey;
+}
+
+.side-bar .side-bar-item{
+    cursor: pointer;
+}
+
+.side-bar .side-bar-icon {
+    color: #724BFF;
+    width: 1rem;
+}
