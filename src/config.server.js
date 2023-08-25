@@ -1,3 +1,3 @@
-const SERVER = 'http://localhost:5000'
+const SERVER = 'https://commerce-server-9797.onrender.com'
 
 export default SERVER
