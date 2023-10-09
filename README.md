@@ -34,7 +34,6 @@ Technologies used: MongoDB, Express, ReactJS, NodeJS, React Router, Redux toolki
 
 - Directory: Client
 - Features:
-
   - [x] Login/Sign up page
   - [x] Home page, Shop page, Product detail page
   - [x] Cart page, Check out page, History orders page
