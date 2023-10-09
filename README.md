@@ -1,71 +1,92 @@
-# Getting Started with Create React App
+# E-Commerce Website (MERN Stack)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## E-Commerce Website
+An ecommerce website for selling mobile devices, full of features like quick-view, mange user-account, add to cart, check out, filter list product in Client Page. When it comes to Admin Page, you can observe a summary revenue dashboard, add/edit/delete product, manage the role of users. The demo apps was deployed on Render and Firebase.
 
-## Available Scripts
+## Technologies
+Technologies used: MongoDB, Express, ReactJS, NodeJS, React Router, Redux toolkit, Socket.io.
 
-In the project directory, you can run:
+## Launch demo
 
-### `npm start`
+\*Note: Please open link back-end first.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ClientApp (Firebase) : [Link](https://commerce-app-a6c6d.web.app/)
+- AdminApp (Firebase) : [Link](https://commerce-44da7.web.app/)
+- Back-end (Render) : [Link](https://commerce-server-9797.onrender.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Client Account: `acoount: user1@gmail.com` , `password: 123456`
+- Counselor Account: `acoount: conselor1@gmail.com` , `password: 123456`
+- Admin Account: `acoount: admin@gmail.com` , `password: 123456`
 
-### `npm test`
+## Project Breakdown
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Server
 
-### `npm run build`
+- Directory: Server
+- Features:
+  - [x] Building api server (MVC model) - CRUD operations
+  - [x] Generating schema models
+  - [x] JWT Authentication
+  - [x] Authenticating api based on user role
+  - [x] Socket.io to handle Room Chat on server-side
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Client App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Directory: Client
+- Features:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - [x] Login/Sign up page
+  - [x] Home page, Shop page, Product detail page
+  - [x] Cart page, Check out page, History orders page
+  - [x] Redux/Redux Toolkit to save user, cart information
+  - [x] Chat Box (socket.io-client)
+  - [x] Send email with products information when order successfully!
 
-### `npm run eject`
+### Admin App
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Directory: Admin
+- Features:
+  - [x] Login page - authenticate for role admin and role counselor
+  - [x] Dashboard to summarize data
+  - [x] Create/Update/Delete/Searching products
+  - [x] Show all orders - Edit order status
+  - [x] User Page - Delete / Update role user
+  - [x] Realtime chat - notify when have new user chatting
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Node version
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node -v 18.17.1
+- Npm -v 9.6.7
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Source code
+- ClientApp: https://github.com/vutran221097/commerce-client
+- AdminApp: https://github.com/vutran221097/commerce-admin
+- ServerApp: https://github.com/vutran221097/commerce-server
 
-## Learn More
+### Clone or download the `E-commerce App` from source code
+#### Client-side usage(PORT: 3000)
+- Url: http://localhost:3000
+- Change backend url to http://localhost:5000 in config.server.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ yarn # or npm i    // npm install packages
+$ npm start       // run it locally
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Admin usage(PORT: 3001)
+- Url: http://localhost:3001
+- Change backend url to http://localhost:5000 in config.server.js
 
-### Code Splitting
+```
+$ yarn # or npm i    // npm install packages
+$ npm start       // run it locally
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Server-side usage(PORT: 5000)
+- Url: http://localhost:5000
+- Add the .env same with .env.example and replace all the variable by your account, config, origin same
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# commerce-admin" 
+```
+$ npm i       // npm install packages
+$ npm start // run it locally
+```
