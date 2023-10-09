@@ -14,9 +14,9 @@ Technologies used: MongoDB, Express, ReactJS, NodeJS, React Router, Redux toolki
 - AdminApp (Firebase) : [Link](https://commerce-44da7.web.app/)
 - Back-end (Render) : [Link](https://commerce-server-9797.onrender.com/)
 
-- Client Account: `acoount: user1@gmail.com` , `password: 123456`
-- Counselor Account: `acoount: conselor1@gmail.com` , `password: 123456`
-- Admin Account: `acoount: admin@gmail.com` , `password: 123456`
+- Client Account: `account: user1@gmail.com` , `password: 123456`
+- Counselor Account: `account: conselor1@gmail.com` , `password: 123456`
+- Admin Account: `account: admin@gmail.com` , `password: 123456`
 
 ## Project Breakdown
 
