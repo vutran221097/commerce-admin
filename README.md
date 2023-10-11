@@ -37,9 +37,9 @@ Technologies used: MongoDB, Express, ReactJS, NodeJS, React Router, Redux toolki
   - [x] Login/Sign up page
   - [x] Home page, Shop page, Product detail page
   - [x] Cart page, Check out page, History orders page
-  - [x] Redux/Redux Toolkit to save user, cart information
-  - [x] Chat Box (socket.io-client)
+  - [x] Redux Toolkit / Redux Persist to save user, cart information
   - [x] Send email with products information when order successfully!
+  - [x] Chat Box (socket.io-client)
 
 ### Admin App
 
@@ -47,7 +47,7 @@ Technologies used: MongoDB, Express, ReactJS, NodeJS, React Router, Redux toolki
 - Features:
   - [x] Login page - authenticate for role admin and role counselor
   - [x] Dashboard to summarize data
-  - [x] Create/Update/Delete/Searching products
+  - [x] Create/Update/Delete/Search products
   - [x] Show all orders - Edit order status
   - [x] User Page - Delete / Update role user
   - [x] Realtime chat - notify when have new user chatting
